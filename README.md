@@ -24,8 +24,8 @@ The following Python libraries are used to analyze and display data: Pandas, Mat
 1. There is a strong, positive relationship between a movie’s production budget and its resulting profit (as a movie’s production budget increases, so does it’s profit)
 
 2. The average production budget of all profitable movies is 38,000,000, which correlates with an average profit of 100,000,000
-![BudgetvsProfit2.png](attachment:BudgetvsProfit2.png)
-![BudgetvsProfit.png](attachment:BudgetvsProfit.png)
+![BudgetvsProfit2.png](Images/BudgetvsProfit2.png)
+![BudgetvsProfit.png](Images/BudgetvsProfit.png)
 
 ## Investigation 2: When is the most profitable time of year to release a film?
 1. The holiday season is a profitable time of year to release a movie-particularly December. 
