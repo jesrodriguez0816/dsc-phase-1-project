@@ -1,65 +1,65 @@
-# Phase 1 Project
+# Movies at Microsoft
+![image-2.png](attachment:image-2.png)
 
-You've made it all the way through the first phase of this course - take a minute to celebrate your awesomeness!
 
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-1-project/master/awesome.gif)
+# Overview
 
-Now you will put your new skills to use with a large end-of-Phase project! This project should take 20 to 30 hours to complete.
+## Microsoft has decided to create their own movie studio. However, they have no working knowledge of the movie industry and need guidance to create profitable content.
+## In this presentation, I will analyze past movie data to help Microsoft meet this goal.
 
-## Project Overview
+### The following questions will be addressed:
+1.) What are the production budgets and release dates of the top 10 most profitable movies?
 
-For this project, you will use exploratory data analysis to generate insights for a business stakeholder.
+2.) When is the best time of year to release a movie?
 
-### Business Problem
+3.) Which movie budgets yield the highest profits?
 
-Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. You are charged with exploring what types of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
+### Data:
+The data file 'tn.movie_budgets.csv.gz' provides information about the finanaces of more than 5,000 films, including production budgets and worldwide and domestic profits. It also includes general information about each movie-such as its name and release date.
 
-### The Data
+### Methods:
+The following Python libraries are used to analyze and display data: Pandas, Matplotlib and Numpy.
 
-In the folder `zippedData` are movie datasets from:
+## Investigation 1: Which movie budgets yield the highest profits?
+1. There is a strong, positive relationship between a movie’s production budget and its resulting profit (as a movie’s production budget increases, so does it’s profit)
 
-* [Box Office Mojo](https://www.boxofficemojo.com/)
-* [IMDB](https://www.imdb.com/)
-* [Rotten Tomatoes](https://www.rottentomatoes.com/)
-* [TheMovieDB](https://www.themoviedb.org/)
-* [The Numbers](https://www.the-numbers.com/)
+2. The average production budget of all profitable movies is 38,000,000, which correlates with an average profit of 100,000,000
+![BudgetvsProfit2.png](attachment:BudgetvsProfit2.png)
+![BudgetvsProfit.png](attachment:BudgetvsProfit.png)
 
-It is up to you to decide what data from this to use and how to use it. If you want to make this more challenging, you can scrape websites or make API calls to get additional data. If you are feeling overwhelmed or behind (e.g. struggled with the Phase 1 Code Challenge), we recommend you use only the following data files:
+## Investigation 2: When is the most profitable time of year to release a film?
+1. The holiday season is a profitable time of year to release a movie-particularly December. 
 
-* imdb.title.basics
-* imdb.title.ratings
-* bom.movie_gross
+2. Late spring and early summer are also profitable seasons for movie releases.
+![ReleaseDatevsProfit.png](attachment:ReleaseDatevsProfit.png)
 
-## Deliverables
+## Investigation 3: What are the production budgets and release dates of the top 10 most profitable movies?
+Three bar graphs are shown below.
+### What are the top 10 most profitable movies?
+1. Gross revenue is broken into worldwide and domestic categories.
+2. Avatar takes the top spot with an overall profit of 3.5  billion dollars.
+3. The average gross profit for these films is 1.7 billion dollars
+![Top10_Gross.png](attachment:Top10_Gross.png)
 
-There are three deliverables for this project:
+### What are the production budgets of the top 10 most profitable movies?
+1. Avatar-our highest grossing movie-also had the highest production budget of $425,000,000
+![Top10_Budget.png](attachment:Top10_Budget.png)
 
-* A **GitHub repository**
-* A **Jupyter Notebook**
-* A **non-technical presentation**
+### What are the release dates of the top 10 most profitable movies?
+1. Our top three highest grossing films-Avatar, Titanic, and Star Wars Episode VII-were released in December.
 
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic for instructions on creating and submitting your deliverables. Refer to the rubric associated with this assignment for specifications describing high-quality deliverables.
+2. All other films in the “Top 10” were released in Spring or early Summer-the exception being Black Panther, which was released in February.
 
-### Key Points
+2. The average production budget for the top 10 movies is $242,600,000
+![Top10_Release.png](attachment:Top10_Release.png)
 
-* **Your analysis should yield three concrete business recommendations.** The ultimate purpose of exploratory analysis is not just to learn about the data, but to help an organization perform better. Explicitly relate your findings to business needs by recommending actions that you think the business (Microsoft) should take.
+## Conclusion
+1. Microsoft should release the bulk of their movies during the early summer and late fall months-ideally close to the holidays.
 
-* **Communicating about your work well is extremely important.** Your ability to provide value to an organization - or to land a job there - is directly reliant on your ability to communicate with them about what you have done and why it is valuable. Create a storyline your audience (the head of Microsoft's new movie studio) can follow by walking them through the steps of your process, highlighting the most important points and skipping over the rest.
+2. A minimum production budget of 50,000,000 is recommended for all movies. This amount correlates with an overall gross profit of 113,000,000 (44% margin)
 
-* **Use plenty of visualizations.** Visualizations are invaluable for exploring your data and making your findings accessible to a non-technical audience. Spotlight visuals in your presentation, but only ones that relate directly to your recommendations. Simple visuals are usually best (e.g. bar charts and line graphs), and don't forget to format them well (e.g. labels, titles).
+3. If Microsoft wishes to compete with the Top 10, an average budget of $296,000,000 is recommended
 
-## Getting Started
+## Follow-Up
+For further analysis, Microsoft should research-in greater detail-the development behind the top ten most profitable movies, including budget breakdown, director selection, release date strategy, etc.
 
-Please start by reviewing this assignment, the rubric at the bottom of it, and the "Project Submission & Review" page. If you have any questions, please ask your instructor ASAP.
-
-Next, we recommend you check out [the Phase 1 Project Templates and Examples repo](https://github.com/learn-co-curriculum/dsc-project-template) and use the MVP template for your project.
-
-Alternatively, you can fork [the Phase 1 Project Repository](https://github.com/learn-co-curriculum/dsc-phase-1-project), clone it locally, and work in the `student.ipynb` file. Make sure to also add and commit a PDF of your presentation to your repository with a file name of `presentation.pdf`.
-
-## Project Submission and Review
-
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic to learn how to submit your project and how it will be reviewed. Your project must pass review for you to progress to the next Phase.
-
-## Summary
-
-This project will give you a valuable opportunity to develop your data science skills using real-world data. The end-of-phase projects are a critical part of the program because they give you a chance to bring together all the skills you've learned, apply them to realistic projects for a business stakeholder, practice communication skills, and get feedback to help you improve. You've got this!
