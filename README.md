@@ -1,5 +1,5 @@
 # Movies at Microsoft
-![image-2.png](attachment:image-2.png)
+![Microsoft_Logo.png](Images/Microsoft_Logo.png)
 
 
 # Overview
@@ -31,7 +31,7 @@ The following Python libraries are used to analyze and display data: Pandas, Mat
 1. The holiday season is a profitable time of year to release a movie-particularly December. 
 
 2. Late spring and early summer are also profitable seasons for movie releases.
-![ReleaseDatevsProfit.png](attachment:ReleaseDatevsProfit.png)
+![ReleaseDatevsProfit.png](Images/ReleaseDatevsProfit.png)
 
 ## Investigation 3: What are the production budgets and release dates of the top 10 most profitable movies?
 Three bar graphs are shown below.
@@ -39,11 +39,11 @@ Three bar graphs are shown below.
 1. Gross revenue is broken into worldwide and domestic categories.
 2. Avatar takes the top spot with an overall profit of 3.5  billion dollars.
 3. The average gross profit for these films is 1.7 billion dollars
-![Top10_Gross.png](attachment:Top10_Gross.png)
+![Top10_Gross.png](Images/Top10_Gross.png)
 
 ### What are the production budgets of the top 10 most profitable movies?
 1. Avatar-our highest grossing movie-also had the highest production budget of $425,000,000
-![Top10_Budget.png](attachment:Top10_Budget.png)
+![Top10_Budget.png](Images/Top10_Budget.png)
 
 ### What are the release dates of the top 10 most profitable movies?
 1. Our top three highest grossing films-Avatar, Titanic, and Star Wars Episode VII-were released in December.
@@ -51,7 +51,7 @@ Three bar graphs are shown below.
 2. All other films in the “Top 10” were released in Spring or early Summer-the exception being Black Panther, which was released in February.
 
 2. The average production budget for the top 10 movies is $242,600,000
-![Top10_Release.png](attachment:Top10_Release.png)
+![Top10_Release.png](Images/Top10_Release.png)
 
 ## Conclusion
 1. Microsoft should release the bulk of their movies during the early summer and late fall months-ideally close to the holidays.
